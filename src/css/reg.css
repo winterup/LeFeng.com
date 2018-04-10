@@ -1,0 +1,72 @@
+main {
+  background-image: url(../img/login-bk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+
+main .main {
+  width: 420px;
+  background: #fff;
+  position: absolute;
+  top: 110px;
+  right: 150px;
+  padding: 60px;
+}
+
+main .main .zhuce {
+  height: 75px;
+  line-height: 75px;
+}
+
+main .main .zhuce h1 {
+  font-size: 25px;
+  float: left;
+}
+
+main .main .zhuce h2 {
+  float: right;
+  font-size: 14px;
+}
+
+main .main .zhuce h2 a {
+  color: skyblue;
+}
+
+main .main .group2 {
+  position: relative;
+}
+
+main .main .group2 #SMS {
+  width: 150px;
+}
+
+main .main .group2 .SMS {
+  width: 130px;
+  height: 40px;
+  border: 2px solid #FF7C91;
+  position: absolute;
+  text-align: center;
+  line-height: 40px;
+  right: 0;
+  top: 20px;
+  background: pink;
+}
+
+main .main .btn {
+  width: 300px;
+  height: 40px;
+  background: #DD172E;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+main .main .main_b {
+  height: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #ccc;
+}

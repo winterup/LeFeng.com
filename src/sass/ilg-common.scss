@@ -1,0 +1,230 @@
+// 导入scss文件
+@import 'var';
+
+.head{
+    height: 30px;
+    background: #F2F2F2;
+    .head-1{
+        float: left;
+        margin-left: 150px;
+        font-size: 12px;
+        position:relative;
+        span{
+            color: #f00;
+            font-weight: 900;
+        }
+        .head-11{
+            width: 350px;
+            height: 220px;
+            background: #fff;
+            z-index:9999;
+            border: 1px solid #ddd;
+            display: none;
+            position:absolute;
+            ul{
+                padding: 5px;
+                li{
+                    float: left;
+                    width: 40px;
+                }
+            }
+        }
+    }
+    ul{
+        float: right;
+        padding-right: 130px;
+        li{
+            line-height: 30px;
+            font-size: 12px;
+            float: left;
+            margin-left: 25px;
+            a{
+                color: #000;
+            }
+        }
+        .head0{
+            a{
+                color: #f00;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+        .head1{
+            .head11{
+                display: none;
+            }
+        }
+        .head2{
+            position:relative;
+            width: 61px;
+            .head21{
+                background: #fff;
+                position:relative;
+                z-index:9999;
+                top: -2px;
+                left: 0px;
+                width: 130px;
+                padding-left: 10px;
+                padding-right: 10px;
+                display: none;
+                border: 1px solid #ddd;
+                .head21_t{
+                    div{
+                        float: left;
+                        margin-left: 5px;
+                    }
+                }
+                .head21_b{
+                    text-align: center;
+                    color: #f00;
+                }
+            }
+        }
+        .head4{
+            color: #f00;
+            position:relative;
+            width: 61px;
+            .head41{
+                position:relative;
+                left: -77px;    
+                top: -2px;
+                z-index:9999;
+                display: none;
+            }
+        }
+    }
+}
+
+.search{
+    height: 130px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    h1{
+        width: 170px;
+        height: 90px;
+        float: left;
+        background: url(../img/logo.png) no-repeat;
+    }
+    .search_c{
+        width: 400px;
+        height: 120px;
+        padding-top: 30px;
+        margin-left: 130px;
+        float: left;
+        label{
+            .search1{
+                width: 330px;
+                height: 40px;
+                border: 2px solid #f00;
+                padding-left: 10px;
+            }
+            .btn{
+                width: 70px;
+                height: 40px;
+                background: #f00;
+                color: #fff;
+            }
+        }
+        div{
+            font-size: 12px;
+            margin-top: 10px;
+            color: #ccc;
+            margin-left: 10px;
+            span{
+                color: #f00;
+            }
+        }
+        
+    }
+    .search_r{
+        float: right;
+        margin-top: 30px;
+        width: 136px;
+        height: 40px;
+        background: url(../img/search1.png) no-repeat;
+        position:relative;
+        span{
+            display: block;
+            position:absolute;
+            right: 20px;
+            top: 10px;
+            color: #fff;
+        }
+    }
+}
+.nav{
+    background: #F62648;
+    height: 40px;
+    .nav_l{
+        position:relative;
+        ul{
+            li{
+                float: left;
+                width: 220px;
+                text-align: center;
+                line-height: 40px;
+                font-size: 12px;
+                font-weight: 900;
+                color: #fff;
+                a{
+                    color: #fff;
+                }
+                img{
+                    margin-left: 10px;
+                }
+            }
+        }
+        .shenhong{
+            background: #D62340;
+        }
+        .nav2{
+            width: 220px;
+            position:absolute;
+            background: #fff;
+            top: 40px;
+            left: 0;
+            display: none;
+            z-index:9999;
+            li{
+                height: 110px;
+                color: #111;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+                font-size: 14px;
+                position:relative;
+                img{
+                    margin-right: 5px;
+                }
+                .nav3{
+                    width: 700px;
+                    height: 150px;
+                    position:absolute;
+                    top: 0;
+                    left: 220px;
+                    background: #ddd;
+                    z-index:9999;
+                    display: none;
+                }
+            }
+        }
+    }
+    .nav_r{
+        float: right;
+        width: 120px;
+        height: 40px;
+        background: url(../img/nav2.png) no-repeat;
+    }
+}
+
+#footer{
+    width: 100%;
+    height: 602px;
+    background-image: url(../img/ilg-footer.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.white{
+    background: #fff;
+}
