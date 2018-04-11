@@ -1,19 +1,23 @@
-#igs {
+main {
+  background: #F5F5F5;
+}
+
+main #igs {
   width: 100%;
   height: 360px;
   position: relative;
 }
 
-#igs .ig {
+main #igs .ig {
   position: absolute;
 }
 
-#igs .ig img {
+main #igs .ig img {
   width: 100%;
   height: 360px;
 }
 
-#igs #tabs {
+main #igs #tabs {
   position: absolute;
   list-style: none;
   background-color: rgba(255, 255, 255, 0.5);
@@ -23,7 +27,7 @@
   padding: 5px 0 5px 5px;
 }
 
-#igs #tabs .tab {
+main #igs #tabs .tab {
   float: left;
   text-align: center;
   line-height: 20px;
@@ -34,10 +38,324 @@
   margin-right: 4px;
   border-radius: 100%;
   background-color: #c86496;
+  color: #fff;
 }
 
-#igs #tabs .bg {
+main #igs #tabs .bg {
   background-color: #f00;
+}
+
+main .tit1 {
+  height: 62px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px #f62648;
+  position: relative;
+}
+
+main .tit1 i {
+  display: inline-block;
+  width: 118px;
+  height: 40px;
+  margin-right: 20px;
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/556ffa7b021b37316bfd2c3356022fcd.png) no-repeat 0 -24px;
+}
+
+main .tit1 span {
+  color: #999;
+  font-weight: 100;
+  position: absolute;
+  top: 25px;
+}
+
+main .tit1 span b {
+  color: #f00;
+  font-weight: 100;
+}
+
+main .jingxuan {
+  height: 720px;
+  width: 100%;
+  background: #fff;
+}
+
+main .jingxuan .jingxuan1 {
+  float: left;
+  position: relative;
+  padding: 10px;
+}
+
+main .jingxuan .jingxuan1 .jingxuan_l p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #666666;
+}
+
+main .jingxuan .jingxuan1 .jingxuan_l p j {
+  color: #f00;
+}
+
+main .jingxuan .jingxuan1 .jingxuan_l span {
+  font-size: 12px;
+  line-height: 64px;
+  color: #ccc;
+}
+
+main .jingxuan .jingxuan1 .jingxuan_l span b {
+  font-size: 20px;
+  color: #666666;
+}
+
+main .jingxuan .jingxuan1 .jingxuan_r img {
+  width: 200px;
+  height: 250px;
+}
+
+main .jingxuan .jingxuan1:nth-child(1) {
+  width: 50%;
+  height: 300px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+main .jingxuan .jingxuan1:nth-child(1) i {
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/556ffa7b021b37316bfd2c3356022fcd.png) no-repeat -137px -243px;
+  width: 46px;
+  height: 59px;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+main .jingxuan .jingxuan1:nth-child(1) .jingxuan_l {
+  width: 250px;
+  float: left;
+  padding-top: 100px;
+  padding-left: 10px;
+}
+
+main .jingxuan .jingxuan1:nth-child(1) .jingxuan_r {
+  float: right;
+}
+
+main .jingxuan .jingxuan1:nth-child(2) {
+  width: 50%;
+  height: 300px;
+  border-bottom: 1px solid #ccc;
+}
+
+main .jingxuan .jingxuan1:nth-child(2) i {
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/556ffa7b021b37316bfd2c3356022fcd.png) no-repeat -183px -243px;
+  width: 46px;
+  height: 59px;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+main .jingxuan .jingxuan1:nth-child(2) .jingxuan_l {
+  width: 250px;
+  float: left;
+  padding-top: 100px;
+  padding-left: 10px;
+}
+
+main .jingxuan .jingxuan1:nth-child(2) .jingxuan_r {
+  float: right;
+}
+
+main .jingxuan .jingxuan1:nth-child(3) {
+  width: 33.3%;
+  height: 420px;
+  border-right: 1px solid #ccc;
+}
+
+main .jingxuan .jingxuan1:nth-child(3) i {
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/556ffa7b021b37316bfd2c3356022fcd.png) no-repeat -137px -302px;
+  width: 46px;
+  height: 59px;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+main .jingxuan .jingxuan1:nth-child(3) .jingxuan_l p {
+  margin-bottom: 47px;
+}
+
+main .jingxuan .jingxuan1:nth-child(3) .jingxuan_r {
+  width: 200px;
+  margin: 20px auto;
+}
+
+main .jingxuan .jingxuan1:nth-child(4) {
+  width: 33.3%;
+  height: 420px;
+  border-right: 1px solid #ccc;
+}
+
+main .jingxuan .jingxuan1:nth-child(4) i {
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/556ffa7b021b37316bfd2c3356022fcd.png) no-repeat -183px -302px;
+  width: 46px;
+  height: 59px;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+main .jingxuan .jingxuan1:nth-child(4) .jingxuan_r {
+  width: 200px;
+  margin: 20px auto;
+}
+
+main .jingxuan .jingxuan1:nth-child(5) {
+  width: 33.3%;
+  height: 420px;
+}
+
+main .jingxuan .jingxuan1:nth-child(5) i {
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/556ffa7b021b37316bfd2c3356022fcd.png) no-repeat -137px -361px;
+  width: 46px;
+  height: 59px;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+main .jingxuan .jingxuan1:nth-child(5) .jingxuan_l p {
+  margin-bottom: 47px;
+}
+
+main .jingxuan .jingxuan1:nth-child(5) .jingxuan_r {
+  width: 200px;
+  margin: 20px auto;
+}
+
+main .tit2 {
+  height: 62px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px #f99c17;
+  position: relative;
+}
+
+main .tit2 i {
+  display: inline-block;
+  width: 118px;
+  height: 40px;
+  margin-right: 20px;
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/556ffa7b021b37316bfd2c3356022fcd.png) no-repeat 0 -64px;
+}
+
+main .tit2 span {
+  color: #999;
+  font-weight: 100;
+  position: absolute;
+  top: 25px;
+}
+
+main .tit2 span b {
+  color: #f00;
+  font-weight: 100;
+}
+
+main .temai .temai1 {
+  width: 490px;
+  height: 275px;
+  position: relative;
+  float: left;
+  margin: 5px;
+}
+
+main .temai .temai1 img {
+  width: 100%;
+  height: 220px;
+}
+
+main .temai .temai1 p {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  background: #000;
+  opacity: 0.8;
+  top: 190px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+main .temai .temai1 span {
+  display: block;
+  font-size: 16px;
+  color: #999;
+  line-height: 50px;
+  padding-left: 10px;
+}
+
+main .temai .temai1 span i {
+  color: #f00;
+}
+
+main .tit3 {
+  height: 62px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px #c835bf;
+  position: relative;
+}
+
+main .tit3 i {
+  display: inline-block;
+  width: 118px;
+  height: 40px;
+  margin-right: 20px;
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/556ffa7b021b37316bfd2c3356022fcd.png) no-repeat 0 -264px;
+}
+
+main .changxian .changxian1 {
+  float: left;
+  width: 230px;
+  height: 340px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+
+main .changxian .changxian1 img {
+  width: 200px;
+  height: 250px;
+  margin: 0 13px;
+}
+
+main .changxian .changxian1 p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  height: 54px;
+  margin-bottom: 5px;
+  margin: 0 13px;
+}
+
+main .changxian .changxian1 p j {
+  color: #f00;
+}
+
+main .changxian .changxian1 span {
+  font-size: 14px;
+  color: #ccc;
+  margin: 0 13px;
+}
+
+main .changxian .changxian1 span b {
+  font-size: 10px;
+  color: #666666;
+}
+
+main .index_b {
+  margin-top: 50px;
+  width: 100%;
+  height: 304px;
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/46acda862c37afddc05a4b865cf5320d.jpg) no-repeat center #f62648;
 }
 
 #toTop {
@@ -65,8 +383,4 @@
   right: 0px;
   bottom: 170px;
   background: url(//h5rsc.vipstatic.com/lefeng_pc/build/556ffa7b021b37316bfd2c3356022fcd.png) no-repeat -118px -24px;
-}
-
-.buzhi {
-  height: 1000px;
 }

@@ -122,7 +122,6 @@ require(['config'],function(){
             }
         }
 
-
         // 点击返回顶部
         toTop.onclick = function(){
 
@@ -139,6 +138,79 @@ require(['config'],function(){
 
             },30)
         }
+
+        // 导入数据
+        $.ajax({
+            url:'../api/index.php',
+            dataType:'json',
+            data:{
+                category:'7-8折'
+                // id:1
+            },
+            success:function(data){
+                // console.log(data);
+                var box1 = data.map(function(item){
+                    return`
+                    <div class="jingxuan1">
+                        <i></i>
+                        <div class="jingxuan_r">
+                            <img src="${item.imgs}"/>
+                        </div>
+                        <div class="jingxuan_l">
+                            <p><j>${item.discount}折/</j>${item.name}</p>
+                            <span><b>￥${item.price}</b>&nbsp&nbsp<del>￥${item.priced}</del></span>
+                            <button class="btn_b1">加入购物车</button>
+                        </div>
+                    </div>
+                    `
+                }).join('');
+                $('.jingxuan').html(box1);
+            }
+        });
+
+        $.ajax({
+            url:'../api/index1.php',
+            dataType:'json',
+            // data:{
+            //     category:'7-8折'
+            // },
+            success:function(data){
+                // console.log(data);
+                var box1 = data.map(function(item){
+                    return`
+                    <div class="temai1">
+                        <img src="${item.imgs}"/>
+                        <p>${item.zhe}</p>
+                        <span><i>￥${item.zhe}</i>&nbsp&nbsp<j>￥${item.name}</j></span>
+                    </div>
+                    `
+                }).join('');
+                $('.temai').html(box1);
+            }
+        });
+
+        $.ajax({
+            url:'../api/index.php',
+            dataType:'json',
+            // data:{
+            //     category:'7-8折'
+            // },
+            success:function(data){
+                // console.log(data);
+                var box1 = data.map(function(item){
+                    return`
+                    <div class="changxian1">
+                        <img src="${item.imgs}"/>
+                        <p><j>${item.discount}折/</j>${item.name}</p>
+                        <span><b>￥${item.price}</b>&nbsp&nbsp<del>￥${item.priced}</del></span>
+                        <button class="btn_b1">加入购物车</button>
+                    </div>
+                    `
+                }).join('');
+                $('.changxian').html(box1);
+            }
+        });
+
         $('footer').load('./html/ilg-footer.html',function(){});
     });
 });
