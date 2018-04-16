@@ -1,1 +1,0 @@
-INSERT INTO `cookie` VALUES (5, '15876595047', '1');
