@@ -5,13 +5,100 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="../css/ilg-common.css" />
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
-    <link rel="stylesheet" type="text/css" href="../css/" />
+    <link rel="stylesheet" type="text/css" href="../css/datalist.css" />
     <script src="../js/require.js" type="text/javascript" data-main="../js/datalist.js"></script>
-    </style>
 </head>
 <body>
     <header id="header"></header>
-    <main></main>
+    <main>
+        <div class="container clearfix">
+            <h5>
+                <ul class="clearfix">
+                    <li><a href="../index.html">首页</a></li>
+                </ul>
+            </h5>
+            <div class="tiaojian">
+                <div class="tiaojian_t"></div>  
+                <div class="tiaojian_c clearfix">
+                    <div class="tiaojian_l">价格：</div>
+                    <div class="tiaojian_r">
+                        <ul class="clearfix">
+                            <li>10-19元</li>
+                            <li>20-39元</li>
+                            <li>40-59元</li>
+                            <li>60-79元</li>
+                            <li>80-99元</li>
+                            <li>100-199元</li>
+                            <li>200元以上</li>
+                        </ul>
+                    </div>
+                </div> 
+                <div class="tiaojian_b">
+                    <div class="tiaojian_l">折扣：</div>
+                    <div class="tiaojian_r">
+                        <ul class="clearfix">
+                            <li>1-2折</li>
+                            <li>2-3折</li>
+                            <li>3-4折</li>
+                            <li>4-5折</li>
+                            <li>5-6折</li>
+                            <li>6-7折</li>
+                            <li>7-8折</li>
+                            <li>8-9折</li>
+                            <li>9-10折</li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+            <div class="paixu clearfix">
+                <div class="paixu_l fl">
+                    <ul class="clearfix">
+                        <li>默认</li>
+                        <li>价格</li>
+                        <li>销量</li>
+                    </ul>
+                </div>
+                <div class="paixu_c fl">
+                    <input type="checkbox" />
+                    <span>只看在售商品</span>
+                </div>
+                <div class="paixu_r fr">
+                    <span><i>46</i>件商品</span>
+                </div>
+            </div>
+            <div class="list clearfix"></div>
+            <div class="page"></div>
+            <div class="sousuo">
+                <div class="search_c">
+                    <label for="search">
+                        全部搜索：<input type="text" class="search1" placeholder="larastyle"/><input type="button" class="btn" value="搜索"/>
+                    </label>
+                    <div>热门：
+                        <span>larastyle</span>
+                        <span>护肤套装</span>   
+                        <span>洁面</span>   
+                        <span>口红</span>
+                    </div>
+                </div>
+            </div>
+            <div class="like">
+                <div class="like_t clearfix">
+                    <div class="like_tl">猜你喜欢</div>
+                    <div class="like_tr">
+                        <span>1</span>
+                        <i>/2</i>
+                        <button class="btn_l"></button>
+                        <button class="btn_r"></button>
+                    </div>
+                </div>  
+                <div class="like_b">
+                    <div class="like_b0"></div>
+                    <div class="like_btnl"></div> 
+                    <div class="like_btnr"></div>    
+                </div>
+            </div>
+        </div>
+    </main>
     <footer id="footer"></footer>
 </body>
 </html>

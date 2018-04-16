@@ -1,0 +1,344 @@
+main {
+  background: #F5F5F5;
+}
+
+main h5 {
+  height: 35px;
+}
+
+main h5 ul li {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+main .tiaojian {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+main .tiaojian .tiaojian_t {
+  width: 100%;
+  height: 91px;
+  background: url(../img/datalist1.png) no-repeat;
+}
+
+main .tiaojian .tiaojian_c {
+  height: 55px;
+  border-bottom: 1px solid #ECEAE6;
+}
+
+main .tiaojian .tiaojian_l {
+  float: left;
+  width: 85px;
+  height: 52px;
+  padding-left: 16px;
+  line-height: 54px;
+  font-size: 12px;
+  font-weight: 900;
+  color: #999;
+  background: #FAFAFA;
+}
+
+main .tiaojian .tiaojian_r {
+  float: left;
+  width: 913px;
+  height: 52px;
+  background: #fff;
+}
+
+main .tiaojian .tiaojian_r ul li {
+  float: left;
+  font-size: 12px;
+  line-height: 54px;
+  padding: 0 15px;
+}
+
+main .paixu {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #ddd;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+main .paixu .paixu_l ul li {
+  float: left;
+  font-size: 12px;
+  padding: 11px 20px;
+}
+
+main .paixu .paixu_l ul li:nth-child(1) {
+  background: #f00;
+  color: #fff;
+}
+
+main .paixu .paixu_c {
+  height: 16px;
+  padding: 11px 0;
+  margin-left: 20px;
+}
+
+main .paixu .paixu_c input {
+  display: inline-block;
+  vertical-align: baseline;
+  background: #fff;
+  width: 15px;
+  height: 15px;
+}
+
+main .paixu .paixu_c span {
+  vertical-align: top;
+  font-size: 12px;
+}
+
+main .paixu .paixu_r {
+  padding: 11px 0;
+  padding-right: 100px;
+}
+
+main .paixu .paixu_r span {
+  vertical-align: top;
+  font-size: 12px;
+}
+
+main .paixu .paixu_r span i {
+  vertical-align: top;
+  color: #f00;
+}
+
+main .list .list1 {
+  float: left;
+  width: 240px;
+  height: 430px;
+  background: #fff;
+  margin: 5px;
+}
+
+main .list .list1 input {
+  display: none;
+}
+
+main .list .list1 img {
+  width: 100%;
+  height: 280px;
+}
+
+main .list .list1 p {
+  height: 40px;
+  font-size: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+main .list .list1 span {
+  display: block;
+  height: 50px;
+  padding: 20px 20px;
+  font-size: 12px;
+  color: #ddd;
+}
+
+main .list .list1 span b {
+  font-size: 16px;
+  color: #f00;
+}
+
+main .list .list1 span j {
+  font-weight: 900;
+  font-size: 14px;
+  color: #f00;
+}
+
+main .list .list1 .btn_b1 {
+  width: 100px;
+  height: 30px;
+  background: #f00;
+  color: #fff;
+}
+
+main .page {
+  float: right;
+  margin: 10px 0;
+  height: 30px;
+}
+
+main .page span {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+  line-height: 30px;
+}
+
+main .page .active {
+  background: #f00;
+  color: #fff;
+}
+
+main .sousuo {
+  margin-top: 60px;
+  height: 110px;
+  border: 1px solid #ddd;
+  width: 100%;
+  background: #fff;
+}
+
+main .sousuo .search_c {
+  height: 120px;
+  padding-top: 25px;
+  padding-left: 260px;
+  float: left;
+}
+
+main .sousuo .search_c label {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+main .sousuo .search_c label .search1 {
+  width: 330px;
+  height: 40px;
+  border: 2px solid #f00;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+
+main .sousuo .search_c label .btn {
+  width: 70px;
+  height: 40px;
+  background: #f00;
+  color: #fff;
+}
+
+main .sousuo .search_c div {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #ccc;
+  margin-left: 85px;
+}
+
+main .sousuo .search_c div span {
+  color: #f00;
+}
+
+main .like {
+  margin-top: 30px;
+}
+
+main .like .like_t {
+  height: 50px;
+  width: 100%;
+  border-top: 2px solid #f00;
+  background: #FAFAFA;
+  padding: 15px;
+}
+
+main .like .like_t .like_tl {
+  font-size: 12px;
+  font-weight: 900;
+  float: left;
+}
+
+main .like .like_t .like_tr {
+  float: right;
+  font-size: 12px;
+}
+
+main .like .like_t .like_tr span {
+  color: #f00;
+  font-size: 12px;
+}
+
+main .like .like_t .like_tr .btn_l {
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/23122da223a7da5293a116c8f07f19d6.png) no-repeat -96px -38px;
+  margin-left: 5px;
+}
+
+main .like .like_t .like_tr .btn_r {
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/23122da223a7da5293a116c8f07f19d6.png) no-repeat -112px -38px;
+}
+
+main .like .like_b {
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  position: relative;
+}
+
+main .like .like_b .like_b0 {
+  width: 2000px;
+  height: 420px;
+  position: absolute;
+}
+
+main .like .like_b .like_b0 .like_b1 {
+  float: left;
+  width: 250px;
+  height: 430px;
+  background: #fff;
+}
+
+main .like .like_b .like_b0 .like_b1 img {
+  width: 100%;
+  height: 280px;
+}
+
+main .like .like_b .like_b0 .like_b1 p {
+  height: 40px;
+  font-size: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+main .like .like_b .like_b0 .like_b1 span {
+  display: block;
+  height: 50px;
+  padding: 20px 20px;
+  font-size: 12px;
+  color: #ddd;
+}
+
+main .like .like_b .like_b0 .like_b1 span b {
+  font-size: 16px;
+  color: #f00;
+}
+
+main .like .like_b .like_b0 .like_b1 span j {
+  font-weight: 900;
+  font-size: 14px;
+  color: #f00;
+}
+
+main .like .like_b .like_btnl {
+  width: 26px;
+  height: 56px;
+  position: absolute;
+  left: 0;
+  top: 154px;
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/23122da223a7da5293a116c8f07f19d6.png) no-repeat -136px -98px;
+  display: none;
+}
+
+main .like .like_b .like_btnr {
+  width: 26px;
+  height: 56px;
+  position: absolute;
+  right: 0;
+  top: 154px;
+  background: url(//h5rsc.vipstatic.com/lefeng_pc/build/23122da223a7da5293a116c8f07f19d6.png) no-repeat -162px -98px;
+  display: none;
+}

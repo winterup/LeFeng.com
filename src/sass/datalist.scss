@@ -1,2 +1,315 @@
 // 导入scss文件
 @import 'var';
+
+main{
+    background: #F5F5F5;
+    h5{
+        height: 35px;
+        ul{
+            li{
+                float: left;
+                height: 35px;
+                line-height: 35px;
+                font-size: 12px;
+                font-weight: 100;
+            }
+        }
+    }
+
+    .tiaojian{
+        width: 100%;
+        height: 200px;
+        border: 1px solid #ddd;
+        margin-bottom: 30px;
+        .tiaojian_t{
+            width: 100%;
+            height: 91px;
+            background: url(../img/datalist1.png) no-repeat;
+        }
+
+        .tiaojian_c{
+            height: 55px;
+            border-bottom: 1px solid #ECEAE6;
+        }
+
+        .tiaojian_l{
+            float: left;
+            width: 85px;
+            height: 52px;
+            padding-left: 16px;   
+            line-height: 54px;
+            font-size: 12px;
+            font-weight: 900;     
+            color: #999;
+            background: #FAFAFA;
+
+        }
+        .tiaojian_r{
+            float: left;
+            width: 913px;
+            height: 52px;
+            background: #fff;
+            ul{
+                li{
+                    float: left;
+                    font-size: 12px;
+                    line-height: 54px;
+                    padding: 0 15px;
+                }
+            }
+        }
+    }
+
+    .paixu{
+        height: 40px;
+        width: 100%;
+        border: 1px solid #ddd;
+        background: #fff;
+        margin-bottom: 30px;
+        .paixu_l{
+            ul{
+                li{
+                    float: left;
+                    font-size: 12px;
+                    padding: 11px 20px;
+                }
+                li:nth-child(1){
+                    background: #f00;
+                    color: #fff;
+                }
+            }
+        }
+        .paixu_c{
+            height: 16px;
+            padding: 11px 0;
+            margin-left: 20px;
+            input{
+                display: inline-block;
+                vertical-align:baseline;
+                background: #fff;
+                width: 15px;
+                height: 15px;
+            }
+            span{
+                vertical-align:top;
+                font-size: 12px;
+            }
+        }
+        .paixu_r{
+            padding: 11px 0;
+            padding-right: 100px;
+            span{
+                vertical-align:top;
+                font-size: 12px;
+                i{
+                    vertical-align:top;
+                    color: #f00;
+                }
+            }
+        }
+    }
+
+    .list{
+        .list1{
+            float: left;
+            width: 240px;
+            height: 430px;
+            background: #fff;
+            margin: 5px;
+            input{
+                display: none;
+            }
+            img{
+                width: 100%;
+                height: 280px;
+            }
+            p{
+                height: 40px;
+                font-size: 12px;
+                padding: 20px;
+                margin-bottom: 15px;
+            }
+            span{
+                display: block;
+                height: 50px;
+                padding: 20px 20px;
+                font-size: 12px;
+                color: #ddd;
+                b{
+                    font-size: 16px;
+                    color: #f00;
+                }
+                j{
+                    font-weight: 900;
+                    font-size: 14px;
+                    color: #f00;
+                }
+            }
+            .btn_b1{
+                width: 100px;
+                height: 30px;
+                background: #f00;
+                color: #fff
+            }
+        }
+    }
+
+    .page{
+        float: right;
+        margin: 10px 0;
+        height: 30px;
+        span{
+            display: block;
+            float: left;
+            width: 30px;    
+            height: 30px;
+            margin: 5px;
+            text-align: center;
+            border: 1px solid #ddd;
+            line-height: 30px;
+        }
+        .active{
+            background: #f00;
+            color: #fff;
+        }
+
+    }
+    
+    .sousuo{
+        margin-top: 60px;
+        height: 110px;
+        border: 1px solid #ddd;
+        width: 100%;
+        background: #fff;
+        .search_c{
+            height: 120px;
+            padding-top: 25px;
+            padding-left: 260px;
+            float: left;
+            label{
+                font-size: 14px;
+                font-weight: 900;
+                .search1{
+                    width: 330px;
+                    height: 40px;
+                    border: 2px solid #f00;
+                    padding-left: 10px;
+                    margin-left: 15px;
+                }
+                .btn{
+                    width: 70px;
+                    height: 40px;
+                    background: #f00;
+                    color: #fff;
+                }
+            }
+            div{
+                font-size: 12px;
+                margin-top: 10px;
+                color: #ccc;
+                margin-left: 85px;
+                span{
+                    color: #f00;
+                }
+            }
+        }
+    }
+
+    .like{
+        margin-top: 30px;
+        .like_t{
+            height: 50px;
+            width: 100%;
+            border-top: 2px solid #f00;
+            background: #FAFAFA;
+            padding: 15px;
+            .like_tl{
+                font-size: 12px;
+                font-weight: 900;
+                float: left;
+            }
+            .like_tr{
+                float: right;
+                font-size: 12px;
+                span{
+                    color: #f00;
+                    font-size: 12px;
+                }
+                .btn_l{
+                    width: 16px;
+                    height: 16px;
+                    vertical-align:top;
+                    background: url(//h5rsc.vipstatic.com/lefeng_pc/build/23122da223a7da5293a116c8f07f19d6.png) no-repeat -96px -38px;
+                    margin-left: 5px;
+                }
+                .btn_r{
+                    width: 16px;
+                    height: 16px;
+                    vertical-align:top;
+                    background: url(//h5rsc.vipstatic.com/lefeng_pc/build/23122da223a7da5293a116c8f07f19d6.png) no-repeat -112px -38px;
+                }
+            }
+        }
+        .like_b{
+            width: 100%;
+            height: 420px;
+            overflow: hidden;
+            position:relative;
+            .like_b0{
+                width: 2000px;
+                height: 420px;
+                position:absolute;
+                .like_b1{
+                    float: left;
+                    width: 250px;
+                    height: 430px;
+                    background: #fff;
+                    img{
+                        width: 100%;
+                        height: 280px;
+                    }
+                    p{
+                        height: 40px;
+                        font-size: 12px;
+                        padding: 20px;
+                        margin-bottom: 15px;
+                    }
+                    span{
+                        display: block;
+                        height: 50px;
+                        padding: 20px 20px;
+                        font-size: 12px;
+                        color: #ddd;
+                        b{
+                            font-size: 16px;
+                            color: #f00;
+                        }
+                        j{
+                            font-weight: 900;
+                            font-size: 14px;
+                            color: #f00;
+                        }
+                    }
+                }
+            }
+            .like_btnl{
+                width: 26px;
+                height: 56px;
+                position:absolute;
+                left: 0;
+                top: 154px;
+                background: url(//h5rsc.vipstatic.com/lefeng_pc/build/23122da223a7da5293a116c8f07f19d6.png) no-repeat -136px -98px;
+                display: none;
+            }
+            .like_btnr{
+                width: 26px;
+                height: 56px;
+                position:absolute;
+                right: 0;
+                top: 154px;
+                background: url(//h5rsc.vipstatic.com/lefeng_pc/build/23122da223a7da5293a116c8f07f19d6.png) no-repeat -162px -98px;
+                display: none;
+            }
+        }
+    }
+}

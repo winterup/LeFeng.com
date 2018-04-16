@@ -168,7 +168,7 @@
 .search .search_r span {
   display: block;
   position: absolute;
-  right: 20px;
+  right: 10px;
   top: 10px;
   color: #fff;
 }
@@ -198,6 +198,10 @@
 
 .nav .nav_l ul li img {
   margin-left: 10px;
+}
+
+.nav .nav_l ul .nav1 {
+  background: #D62340;
 }
 
 .nav .nav_l .shenhong {

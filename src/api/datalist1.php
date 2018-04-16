@@ -3,23 +3,23 @@
     require('connect.php');//include 'connect.php'
 
     // 获取前端数据
-    $cat = isset($_GET['category']) ? $_GET['category'] : null;
-    // $id = isset($_GET['id']) ? $_GET['id'] : null;
+    // $cat = isset($_GET['category']) ? $_GET['category'] : null;
+    $id = isset($_GET['id']) ? $_GET['id'] : null;
 
     // 编写sql语句
-    $sql = "select * from datalist where";
-    // $sql = "select * from datalist order by id limit ";
+    // $sql = "select * from datalist where";
+    $sql = "select * from datalist order by id limit ";
 
-    // if($id){
-     // $sql .= "$id";
-    // }
-
-    // 根据分类改变sql语句
-    if($cat){
-        $sql .= " category='$cat' and"; //select * from goods where category=nike
+    if($id){
+     $sql .= "$id";
     }
 
-    $sql .= ' 1=1';
+    // 根据分类改变sql语句
+    // if($cat){
+    //     $sql .= " category='$cat' and"; //select * from goods where category=nike
+    // }
+
+    // $sql .= ' 1=1';
 
     // echo "$sql";
 

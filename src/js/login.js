@@ -26,7 +26,7 @@ require(['config'],function(){
         let group = username.parentNode;
         let txt = username.nextElementSibling;
 
-        btnReg.onclick=function(){
+        btnReg.onclick=function(e){
             let _username = username.value;
             let _password = password.value;
 
@@ -41,7 +41,17 @@ require(['config'],function(){
                     // console.log(data);
                     if(data == 'success'){
                         alert('登录成功');
-                        $(location).attr('href', '../index.html');
+                        ajax({
+                            url:'../api/cookie.php',
+                            data:{
+                                username:_username,
+                                id0:1
+                            },
+                            success:function(data){
+                                $(location).attr('href', '../index.html');
+                            }
+                        })
+                        // $(location).attr('href', '../index.html');
                     }else{
                         alert('登录名或密码错误')
                     }

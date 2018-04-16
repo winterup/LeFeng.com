@@ -35,6 +35,54 @@ require(['config'],function(){
                 $('.head41').hide();
             });
 
+            $('.nav3').on('click',function(){
+                $(location).attr('href', '../html/datalist.html');
+            })
+            $('.head0 .a1').on('click',function(){
+                $(location).attr('href', '../html/login.html');
+            })
+            $('.head0 .a2').on('click',function(){
+                $(location).attr('href', '../html/reg.html');
+            })
+            // 提取用户名
+            $.ajax({
+                url:'../api/t_cookie.php',
+                dataType:'json',
+                data:{
+                    id0:'1'
+                },
+                success:function(data){
+                    // console.log(data);
+                    if(data==='fail'){
+                        $('.head-2').hide();
+                        $('.head0').show();
+                    }else{
+                        var box1 = data.map(function(item){
+                            return`
+                            嗡，欢迎来乐蜂，<span>${item.username}</span><a>退出登录</a> 
+                            `
+                        }).join('');
+                        $('.head-2').html(box1).show();
+                        $('.head0').hide();
+
+                        $('.head-2 a').on('click',function(){
+                            console.log(6666);
+                            // 删除用户名
+                            ajax({
+                                url:'../api/cookie_del.php',
+                                data:{id0:1},
+                                success:function(data){
+                                    window.location.reload();
+                                    $('.head0').show();
+                                    $('.head-2').hide();
+                                }
+                            })
+                        })
+                    }
+                    
+                }
+            });
+
             // 导航
             $('.nav1').on('mouseover',function(){
                 $('.nav1').addClass('shenhong');
@@ -108,6 +156,8 @@ require(['config'],function(){
         // 页面固定定位
         var toTop = document.getElementById('toTop');
         var toLeft = document.getElementsByClassName('toLeft')[0];
+        var totemai = document.getElementsByClassName('totemai')[0];
+        var tobaokuan = document.getElementsByClassName('tobaokuan')[0];
         window.onscroll = function(){
             var scrollTop = window.scrollY;
 
@@ -116,9 +166,29 @@ require(['config'],function(){
             if(scrollTop >= 1000){
                 toTop.style.display = 'block';
                 toLeft.style.display = 'block';
+                totemai.style.display = 'block';
+                tobaokuan.style.display = 'block';
             }else{
                 toTop.style.display = 'none';
                 toLeft.style.display = 'none';
+                totemai.style.display = 'none';
+                tobaokuan.style.display = 'none';
+            }
+
+            // 获取滚动条滚动过的距离
+            var scrollTop = window.scrollY;
+            // console.log($('.tit3').offset().top);
+            if($(window).scrollTop() >= 1342 && $(window).scrollTop()<4254){
+                // 给search添加一个类：fixed
+                $('.totemai').addClass('totemai1');
+            }else{
+                $('.totemai').removeClass('totemai1');
+            }
+            if($(window).scrollTop() >= 4254){
+                // 给search添加一个类：fixed
+                $('.tobaokuan').addClass('tobaokuan1');
+            }else{
+                $('.tobaokuan').removeClass('tobaokuan1');
             }
         }
 
@@ -138,6 +208,17 @@ require(['config'],function(){
 
             },30)
         }
+        // tab键
+        $('.totemai').on('click',function(){
+            $('body,html').animate({
+                scrollTop: 1342
+            }, 300);
+        });
+        $('.tobaokuan').on('click',function(){
+            $('body,html').animate({
+                scrollTop: 4254
+            }, 300);
+        });
 
         // 导入数据
         $.ajax({
@@ -145,7 +226,7 @@ require(['config'],function(){
             dataType:'json',
             data:{
                 category:'7-8折'
-                // id:1
+                // id:'0,5'
             },
             success:function(data){
                 // console.log(data);
@@ -159,7 +240,6 @@ require(['config'],function(){
                         <div class="jingxuan_l">
                             <p><j>${item.discount}折/</j>${item.name}</p>
                             <span><b>￥${item.price}</b>&nbsp&nbsp<del>￥${item.priced}</del></span>
-                            <button class="btn_b1">加入购物车</button>
                         </div>
                     </div>
                     `
@@ -199,12 +279,11 @@ require(['config'],function(){
                 // console.log(data);
                 var box1 = data.map(function(item){
                     return`
-                    <div class="changxian1">
+                    <ul class="changxian1">
                         <img src="${item.imgs}"/>
                         <p><j>${item.discount}折/</j>${item.name}</p>
                         <span><b>￥${item.price}</b>&nbsp&nbsp<del>￥${item.priced}</del></span>
-                        <button class="btn_b1">加入购物车</button>
-                    </div>
+                    </ul>
                     `
                 }).join('');
                 $('.changxian').html(box1);

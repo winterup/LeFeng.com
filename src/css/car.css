@@ -1,0 +1,288 @@
+main .main_t {
+  width: 100%;
+  height: 102px;
+  background: url(../img/car1.png) no-repeat;
+}
+
+main h5 {
+  height: 35px;
+}
+
+main h5 ul li {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+main .car_list {
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+main .car_list .line1 {
+  border-bottom: 1px solid #ddd;
+  height: 38px;
+  width: 100%;
+  border-left: 2px solid #f00;
+  padding: 12px;
+}
+
+main .car_list .line1 li {
+  float: left;
+  font-size: 14px;
+  color: #f00;
+  margin-right: 100px;
+}
+
+main .car_list .line1 li:nth-child(1) {
+  margin-right: 430px;
+}
+
+main .car_list .line1 li:nth-child(5) {
+  margin-right: 0;
+}
+
+main .car_list .line2 {
+  width: 97%;
+  height: 48px;
+  border-bottom: 1px dashed #ddd;
+  margin: 12px;
+  margin-bottom: 0;
+  padding-top: 8px;
+}
+
+main .car_list .line2 li {
+  float: left;
+}
+
+main .car_list .line2 li span {
+  display: block;
+  width: 58px;
+  height: 24px;
+  background: orange;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  padding-top: 3px;
+}
+
+main .car_list .shangpin .shangpin1 {
+  height: 140px;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+main .car_list .shangpin .shangpin1 li {
+  float: left;
+  padding-top: 50px;
+}
+
+main .car_list .shangpin .shangpin1 li img {
+  width: 60px;
+  height: 80px;
+}
+
+main .car_list .shangpin .shangpin1 li j {
+  font-size: 12px;
+  color: #999;
+}
+
+main .car_list .shangpin .shangpin1 li b {
+  color: #000;
+  font-size: 12px;
+}
+
+main .car_list .shangpin .shangpin1 li span {
+  font-size: 12px;
+  font-weight: 900;
+  color: #f00;
+}
+
+main .car_list .shangpin .shangpin1 li del {
+  color: #999;
+  font-size: 12px;
+}
+
+main .car_list .shangpin .shangpin1 li input {
+  width: 24px;
+  height: 24px;
+  background: #ddd;
+}
+
+main .car_list .shangpin .shangpin1 li .qty {
+  width: 30px;
+  height: 24px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  text-align: center;
+}
+
+main .car_list .shangpin .shangpin1 li:nth-child(1) {
+  width: 95px;
+  padding-top: 20px;
+}
+
+main .car_list .shangpin .shangpin1 li:nth-child(2) {
+  width: 380px;
+}
+
+main .car_list .shangpin .shangpin1 li:nth-child(3) {
+  width: 140px;
+}
+
+main .car_list .shangpin .shangpin1 li:nth-child(4) {
+  width: 128px;
+}
+
+main .car_list .shangpin .shangpin1 li:nth-child(5) {
+  width: 130px;
+}
+
+main .car_list .line3 {
+  height: 54px;
+  width: 100%;
+}
+
+main .car_list .line3 li {
+  float: left;
+  padding: 15px;
+  color: #999;
+  font-size: 14px;
+}
+
+main .car_list .line3 li span {
+  display: block;
+  width: 58px;
+  height: 24px;
+  background: orange;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  padding-top: 3px;
+}
+
+main .jiesuan {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 0 16px;
+  color: #ccc;
+}
+
+main .jiesuan .jiesuan_t {
+  width: 100%;
+  height: 54px;
+  border-bottom: 1px dashed #ddd;
+  padding: 18px 0;
+  vertical-align: top;
+}
+
+main .jiesuan .jiesuan_t span {
+  margin-top: 4px;
+  float: left;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url(data:image/jpeg;base64,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) no-repeat 0 -18px;
+}
+
+main .jiesuan .jiesuan_t i {
+  margin: 0 10px;
+  color: #f00;
+}
+
+main .jiesuan .jiesuan_c {
+  width: 100%;
+  height: 290px;
+  background: url(../img/car2.png) no-repeat;
+  display: none;
+}
+
+main .jiesuan .jiesuan_3 {
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  color: #000;
+  font-size: 12px;
+}
+
+main .jiesuan .jiesuan_3 div {
+  height: 40px;
+  width: 260px;
+  position: absolute;
+}
+
+main .jiesuan .jiesuan_3 div j {
+  color: #f00;
+  float: right;
+  margin-right: 20px;
+}
+
+main .jiesuan .jiesuan_3 .yuanjia {
+  right: 0;
+  top: 10px;
+}
+
+main .jiesuan .jiesuan_3 .yuanjia i {
+  color: #f00;
+}
+
+main .jiesuan .jiesuan_3 .youhuijia {
+  right: 0px;
+  top: 50px;
+}
+
+main .jiesuan .jiesuan_4 {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  color: #000;
+  font-size: 12px;
+}
+
+main .jiesuan .jiesuan_4 .zongjin {
+  height: 40px;
+  width: 260px;
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+main .jiesuan .jiesuan_4 .zongjin j {
+  color: #f00;
+  float: right;
+  margin-right: 20px;
+}
+
+main .jiesuan .jiesuan_5 {
+  width: 100%;
+  height: 50px;
+}
+
+main .jiesuan .jiesuan_5 .jixu {
+  width: 75%;
+  height: 50px;
+  float: left;
+  padding: 15px;
+}
+
+main .jiesuan .jiesuan_5 .liji {
+  width: 25%;
+  height: 50px;
+  float: right;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#footer {
+  border-top: 1px solid #f00;
+  margin-top: 20px;
+}

@@ -1,0 +1,303 @@
+// 导入scss文件
+@import 'var';
+
+main{
+    background: #F5F5F5;
+    .goods_t{
+        height: 60px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 60px;
+        h6{
+            float: left;
+            color: #999;
+        }
+        h5{
+            margin-left: 10px;
+            float: left;
+            color: #f00;
+        }
+    }
+    .goods_c{
+        width: 100%;
+        // height: 520px;
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 30px;
+        padding-bottom: 0;
+        .goods_ct{
+            height: 70px;
+            p{
+                font-size: 24px;
+                font-weight: 900;
+                float: left
+            }
+            span{
+                display: block;
+                float: right;
+                width: 80px;
+                height: 50px;
+                background: url(../img/goods1.png) no-repeat;
+            }
+        }
+        .goods_cc{
+            height: 350px;
+            width: 100%;
+            .goods_ccl{
+                float: left;
+                img{
+                    width: 600px;
+                    height: 350px;
+                }
+            }
+            .goods_ccr{
+                float: right;
+                width: 315px;
+                height: 350px;
+                .goods_ccrt{
+                    height: 175px;
+                    border-top: 1px dashed #ddd;
+                    padding-top: 25px;
+                    .p1{
+                        font-size: 12px;
+                        color: orange;
+                        margin-bottom: 25px;
+                        span{
+                            font-size: 12px;
+                            color: #ccc;
+                            margin-right: 40px;
+                        }
+                        i{
+                            font-size: 24px;
+                            color: orange;
+                            margin-right: 10px;
+                        }
+                        j{  
+                            width: 20px;
+                            height: 20px;
+                            font-size: 12px;
+                            line-height: 20px;
+                            color: #fff;
+                            background: orange;
+                            margin-right: 20px;
+                        }
+                        del{
+                            color: #ccc
+                        }
+                    }
+                    .p2{
+                        span{
+                            font-size: 12px;
+                            color: #ccc;
+                            margin-right: 40px;
+                            display: block;
+                            float: left;
+                        }
+                        i{
+                            display: block;
+                            float: left;
+                            width: 142px;
+                            height: 56px;
+                            background: url(../img/goods2.png) no-repeat;
+                        }
+                    }
+                }
+                .goods_ccrb{
+                    height: 100%;
+                    border-top: 1px dashed #ddd;
+                    padding-top: 25px;
+                    .p3{
+                        span{
+                            font-size: 12px;
+                            color: #ccc;
+                            margin-right: 40px;
+                        }
+                        .btnl{
+                            width: 25px;
+                            height: 25px;
+                            border: 1px solid #ddd;
+                        }
+                        .qty{
+                            width: 30px;
+                            height: 25px;
+                            border: 1px solid #ddd;
+                            text-align: center;
+                        }
+                        .btnr{
+                            width: 25px;
+                            height: 25px;
+                            border: 1px solid #ddd;
+                        }
+                    }
+                    .p4{
+                        span{
+                            display: block;
+                            width: 180px;
+                            height: 45px;
+                            background: #F82143;
+                            color: #fff;
+                            text-align: center;
+                            line-height: 45px;
+                            margin-top: 20px;
+                        }
+                    }
+                    .p5{
+                        font-size: 12px;
+                        color: #999;
+                        margin-top: 10px;
+                        span{
+                            color: #F82143;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        .goods_cb{
+            height: 60px;
+            width: 100%;
+            background: url(../img/goods3.png) no-repeat;
+        }
+    }
+    .goods_b{
+        margin-top: 15px;
+        width: 100%;
+        .goods_bl{
+            width: 760px;
+            border: 1px solid #ddd;
+            float: left;
+            position:absolute;
+            .fixed{
+                position:fixed;
+                top: 0;
+                border-right: 1px solid #ddd;
+            }
+            .goods_blt{
+                height: 50px;
+                width: 760px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 14px;
+                font-weight: 900;
+                border-bottom: 1px solid #ddd;
+                background: #F5F5F5;
+                .blt_light{
+                    border-bottom: 0;
+                    border-top: 4px solid #f00;
+                    background: #fff;
+                }
+                .goods_blt1{
+                    height: 50px;
+                    border-right: 1px solid #ddd;
+                    float: left;
+                    width: 15%;
+                }
+                .goods_blt2{
+                    float: left;
+                    width: 15%;
+                    height: 50px;
+                    border-right: 1px solid #ddd;
+                }
+                .goods_blt3{
+                    float: left;
+                    width: 70%;
+                    height: 50px;
+                    padding-right: 10px;
+                    padding-left: 250px;
+                    .xiding{
+                        display: none;
+                        i{
+                            font-size: 18px;
+                            color: #f00;
+                            font-weight: 900;
+                        }
+                        del{
+                            font-size: 12px;
+                        }
+                        .p4{
+                            span{
+                                display: block;
+                                width: 120px;
+                                height: 35px;
+                                background: #F82143;
+                                color: #fff;
+                                text-align: center;
+                                margin-top: 7px;
+                                line-height: 0;
+                                padding-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            .goods_blc{
+                background: #fff;
+                padding: 0 10px;
+                width: 100%;
+            }
+        }
+
+        .goods_br{
+            float: right;
+            width: 230px;
+            border: 1px solid #ddd;
+            .goods_brt{
+                width: 100%;
+                height: 50px;
+                border-bottom: 1px solid #ddd;
+                text-align: center;
+                padding-top: 13px;
+                background: #fff;
+                span{
+                    font-size: 12px;
+                    font-weight: 900;
+                    border-left: 2px solid #f00;
+                    padding-left: 5px;
+                }
+            }
+            .goods_brb{
+                padding: 0 10px;
+                background: #fff;
+                .like_b1{
+                    padding-bottom: 10px;
+                    border-bottom: 1px dashed #ddd;
+                    img{
+                        width: 100%;
+                        height: 280px;
+                    }
+                    p{
+                        height: 40px;
+                        font-size: 12px;
+                        padding: 20px;
+                        margin-bottom: 15px;
+                    }
+                    span{
+                        display: block;
+                        height: 50px;
+                        padding: 20px 20px;
+                        font-size: 12px;
+                        color: #ddd;
+                        b{
+                            font-size: 16px;
+                            color: #f00;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.gouwuche{
+        position:fixed;
+        width: 300px;
+        height: 100px;
+        z-index:9999;
+        background: #ddd;
+        top: 40%;
+        left:40%;
+        text-align: center; 
+        padding: 38px 0;
+        display: none;
+        border: 1px solid #999;
+    }

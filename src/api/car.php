@@ -7,10 +7,11 @@
     // $id = isset($_GET['id']) ? $_GET['id'] : null;
 
     // 编写sql语句
-    $sql = "select * from datalist where";
+    $sql = "select * from car where";
+    // $sql = "select * from datalist order by id limit ";
 
     // if($id){
-    //  $sql .= " id='$id' and";
+     // $sql .= "$id";
     // }
 
     // 根据分类改变sql语句
@@ -30,16 +31,5 @@
     // 得到一个数组
     $row = $res->fetch_all(MYSQLI_ASSOC);
 
-    $page_no = isset($_POST['pageNo']) ? $_POST['pageNo'] : 1;
-    $qty = isset($_POST['qty']) ? $_POST['qty'] : 20;
-    // 根据分页截取数据
-    $res = array(
-        'data'=>array_slice($row, ($page_no-1)*$qty,$qty),
-        'total'=>count($row),
-        'qty'=>$qty,
-        'pageNo'=>$page_no*1
-    );
-    // 输出json字符串
-    echo json_encode($res,JSON_UNESCAPED_UNICODE);
-    // echo json_encode($row,JSON_UNESCAPED_UNICODE);
+    echo json_encode($row,JSON_UNESCAPED_UNICODE);
 ?>
